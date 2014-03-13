@@ -1,7 +1,7 @@
 var isBrowser = this.window ? true : false,
-objectId = isBrowser ? require("object-id") : require("./object-id"),
-inherits = isBrowser ? require("inherit") : require("util").inherits,
-EventEmitter = isBrowser ? require("emitter") : require("emitter-component");
+objectId = isBrowser ? require('gingkoapp-object-id') : require("./object-id"),
+inherits = isBrowser ? require('component-inherit') : require("util").inherits,
+EventEmitter = isBrowser ? require('component-emitter') : require("emitter-component");
 
 module.exports = Node;
 

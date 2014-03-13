@@ -1,32 +1,14 @@
 {
-  "name": "tree-node",
-  "version": "0.1.5",
+  "name": "brighthas-tree-node",
   "description": "tree node",
+  "version": "0.0.6",
+  "keywords": [],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/brighthas/tree-node.git"
-  },
-  "keywords": [
-    "tree",
-    "node",
-    "tree",
-    "node"
-  ],
-  "author": "brighthas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brighthas/tree-node/issues"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "homepage": "https://github.com/brighthas/tree-node",
   "dependencies": {
-    "emitter-component": "~1.1.1"
+    "gingkoapp-object-id": "git://github.com/npmcomponent/gingkoapp-object-id.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "devDependencies": {}
+  "license": "MIT"
 }
